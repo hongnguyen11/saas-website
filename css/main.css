@@ -1,0 +1,109 @@
+html {
+  background-color: #000;
+  font-family: "Libre Baskerville", serif;
+}
+
+#main {
+  background-color: #fff;
+}
+
+.masthead {
+  background-color: #522806;
+  border-bottom: .3rem solid #bea59b;
+  color: #fff;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo-text {
+  display: inline-block;
+  width: 9em;
+}
+
+.nav {
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: 3px solid #fff;
+}
+
+.nav a:focus {
+  outline: 3px solid #fff;
+}
+
+.nav a span {
+  border-bottom: .3rem solid #bea59b;
+}
+
+.nav a:hover span,
+.nav a:focus span {
+  border-bottom-color: #fff;
+  outline: 3px solid #000;
+}
+
+.banner {
+  min-height: 16em;
+  color: #fff;
+  background-color: #000;
+}
+
+.card {
+  min-height: 22em;
+  border: .3rem solid #bea59b;
+  border-radius: 4px;
+}
+
+.btn-light {
+  background-color: #bea59b;
+  border-color: #fff;
+  color: #522806;
+}
+
+.btn-light:hover,
+.btn-light:focus {
+  background-color: #522806;
+  border-color: #fff;
+}
+
+.btn-banner {
+  border-color: #bea59b;
+  color: #fff;
+}
+
+.btn-banner:hover,
+.btn-banner:focus {
+  background-color: #bea59b;
+  border-color: #fff;
+  color: #522806;
+}
+
+.footer {
+  background-color: #522806;
+  border-top: .3rem solid #bea59b;
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+  .banner,
+  .card {
+    min-height: 0;
+  }
+
+}
