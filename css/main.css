@@ -110,6 +110,14 @@ a:focus {
   background-color: #f5f5f5;
 }
 
+.popular-templates {
+  background-color: #f5f5f5;
+}
+
+.thumbnail {
+  width: 80%;
+}
+
 .footer {
   background-color: #fff;
   color: #777777;
