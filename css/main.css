@@ -1,5 +1,5 @@
 html {
-  background-color: #CFBFD9;
+  background-color: #fff;
   font-family: Montserrat, sans-serif;
 }
 
@@ -14,6 +14,14 @@ html {
 
 .logo {
   text-align: center;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.logo-link:visited {
+  color: #707070;
 }
 
 .logo-text {
@@ -121,6 +129,50 @@ a:focus {
 .footer {
   background-color: #fff;
   color: #777777;
+}
+
+.pricing-table {
+  background-color: #f5f5f5;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  border-collapse: collapse;
+}
+
+tbody {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 0px solid #fff;
+}
+
+.basic {
+  border-left: 1px solid #fff;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #fff;
+}
+
+.btn-light {
+  background-color: #AF96C4;
+  color: #fff;
+  border-color: #AF96C4;
+  width: 15em;
+}
+
+.btn-light-green {
+  background-color: #649867;
+  border-color: #649867;
+}
+
+caption {
+  display: none;
 }
 
 @media only screen and (min-width: 20em) {
