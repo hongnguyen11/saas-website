@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Sign up</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+</head>
+<body>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <div class="masthead gutter">
+    <header role="banner" class="grid grid-middle gutter wrapper">
+      <h1 class="logo push-0 unit [ xs-1 s-1 m-1-4 l-1-4 ] pad-t-1-2 pad-b-1-2"><a class="logo-link" href="index.html">Sinte.</a></h1>
+      <nav role="navigation" id="nav" class="nav unit [ xs-1 s-1 m-3-4 l-3-4 ] pad-t-1-2 pad-b-1-2">
+        <ul class="list-group-inline mega push-0">
+          <li><a class="ib gutter-1-2 bold micro" href="tour.html"><span>Templates</span></a></li>
+          <li><a class="ib gutter-1-2 bold micro" href="pricing.html"><span>Pricing</span></a></li>
+          <li><a class="ib gutter-1-2 bold micro" href="#"><span>Support</span></a></li>
+          <li class="log-in gutter-1-2"><a class="ib gutter-1-2 btn btn-dark micro nav-current" href="sign-up.html"><span>Sign up/Log in</span></a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+  <main role="main" id="main">
+    <div class="sign-up max-length text-center">
+
+      <h3>Create your account</h3>
+      <p>Already have an account. Log in</p>
+      <div class="sign-up-form">
+        <form class="push-0" method="POST" action="https://formspree.io/nguy0779@algonquinlive.com">
+        <div class="first-name">
+          <input id="firstname" type="text" name="firstname" placeholder="First Name" required>
+        </div>
+        <div class="last-name">
+          <input id="lastname" type="text" name="lastname" placeholder="Last Name" required>
+        </div>
+        <div class="email">
+          <input id="email" type="email" name="email" placeholder="Email Address" required>
+        </div>
+        <div class="password">
+          <input id="password" type="password" name="password" placeholder="Password" required>
+        </div>
+        <div class="agree">
+          <p>By creating an account, you agree to our Terms of Service and have read and understood the Privacy Policy</p>
+        </div>
+        <div class="button">
+          <button class="btn btn-light-green" type="submit" name="button">Create Account</button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+</body>
+</html>
