@@ -63,7 +63,6 @@ a:focus {
   color: #000;
   border: .15rem solid #000;
   border-radius: 4px;
-  font-weight: 500;
 
 }
 
@@ -84,19 +83,16 @@ a:focus {
 }
 .card {
   min-height: 22em;
-  border: .3rem solid #;
+  border: .3rem solid;
   border-radius: 4px;
 }
 
 .btn-light {
-  background-color: #;
   border-color: #fff;
-  color: #;
 }
 
 .btn-light:hover,
 .btn-light:focus {
-  background-color: #;
   border-color: #fff;
 }
 
