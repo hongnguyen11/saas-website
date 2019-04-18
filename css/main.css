@@ -42,23 +42,12 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  background-color: #f5f5f5;
+}
+
 a:focus {
-  outline: 3px solid #fff;
-}
-
-.nav a:focus {
-  outline: 3px solid #fff;
-}
-
-.nav a span {
-  
-}
-
-.nav a:hover span,
-.nav a:focus span {
-  background-color: #fff;
-  border-color: #000;
-  color: #000;
+  outline: 3px solid #000;
 }
 
 .btn-dark:hover {
@@ -89,11 +78,6 @@ a:focus {
   border-radius: 4px;
 }
 
-.btn-light:hover,
-.btn-light:focus {
-  border-color: #fff;
-}
-
 .btn-banner {
   border-color: #649867;
   color: #649867;
@@ -108,7 +92,7 @@ a:focus {
 
 #frame {
   border-radius: 5px;
-  border: 0px solid #707070;
+  border: 1px solid #707070;
   background-color: #f5f5f5;
 }
 
@@ -142,7 +126,7 @@ tbody {
 }
 
 th, td {
-  border: 0px solid #fff;
+  border: 1px solid #f5f5f5;
 }
 
 .basic {
@@ -171,6 +155,10 @@ caption {
 
 .sign-up {
   width: 20em;
+}
+
+.contrast {
+  color: #000;
 }
 
 @media only screen and (min-width: 20em) {
