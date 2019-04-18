@@ -31,16 +31,19 @@
   </div>
   <main role="main" id="main">
     <div class="sign-up max-length text-center">
-
-      <h3>Create your account</h3>
-      <p>Already have an account. Log in</p>
+      <article>
+        <section>
+          <h2>Create your account</h2>
+          <p>Already have an account. Log in</p>
+        </section>
+      </article>
       <div class="sign-up-form">
         <form class="push-0" method="POST" action="https://formspree.io/nguy0779@algonquinlive.com">
-          <div class="first-name push">
+          <div class="first-name push" aria-label="first name">
             <input id="firstname" type="text" name="firstname" placeholder="First Name" required>
           </div>
           <div class="last-name push">
-            <input id="lastname" type="text" name="lastname" placeholder="Last Name" aria-lable="last name" required>
+            <input id="lastname" type="text" name="lastname" placeholder="Last Name" required>
           </div>
           <div class="email push">
             <input id="email" type="email" name="email" placeholder="Email Address" required>
@@ -60,5 +63,35 @@
 
     </div>
   </main>
+
+  <footer role="contentinfo" class="footer micro pad-t gutter-2">
+    <div class="grid center-content">
+      <div class="logo-and-icons unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+        <h3 class="push-none">Sinte.</h3>
+        <ul class="social-icons push-none list-group-inline pad-t-1-2 pad-b-1-2 embed">
+          <li class="gutter-1-4"><i class="icon i-20 embed-item"><img src="images/facebook-logo.svg" alt=""></i></li>
+          <li class="gutter-1-4"><i class="icon i-20"><img src="images/youtube.svg" alt=""></i></li>
+          <li class="gutter-1-4"><i class="icon i-20"><img src="images/twitter-logo-silhouette.svg" alt=""></i></li>
+          <li class="gutter-1-4"><i class="icon i-20"><img src="images/instagram-logo.svg" alt=""></i></li>
+        </ul>
+        <p class="pico text-upper">all right reserved</p>
+      </div>
+
+        <ul class="list-group column-2 unit [ xs-1 s-1 m-1-4 l-1-4 ] text-upper">
+          <li>about us</li>
+          <li>careers</li>
+          <li>terms of service</li>
+          <li>privacy policy</li>
+        </ul>
+
+        <ul class="list-group column-3 unit [ xs-1 s-1 m-1-4 l-1-4 ] text-upper">
+          <li>templates</li>
+          <li>pricing</li>
+          <li>support</li>
+          <li>contact us</li>
+        </ul>
+    </div>
+
+  </footer>
 </body>
 </html>
