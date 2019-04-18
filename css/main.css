@@ -30,7 +30,7 @@ html {
 }
 
 h3 {
-  color: #777777;
+  color: #777;
 }
 
 .nav {
@@ -55,7 +55,9 @@ a:focus {
 
 .nav a:hover span,
 .nav a:focus span {
-
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
 }
 
 .btn-dark:hover {
@@ -63,7 +65,6 @@ a:focus {
   color: #000;
   border: .15rem solid #000;
   border-radius: 4px;
-
 }
 
 .banner {
@@ -79,16 +80,12 @@ a:focus {
   width: 75%;
   text-align: center;
   margin: 0 auto;
-
 }
+
 .card {
   min-height: 22em;
   border: .3rem solid;
   border-radius: 4px;
-}
-
-.btn-light {
-  border-color: #fff;
 }
 
 .btn-light:hover,
@@ -124,7 +121,7 @@ a:focus {
 
 .footer {
   background-color: #fff;
-  color: #777777;
+  color: #777;
 }
 
 .pricing-table {
@@ -156,9 +153,9 @@ th, td {
 }
 
 .btn-light {
-  background-color: #AF96C4;
+  background-color: #af96c4;
   color: #fff;
-  border-color: #AF96C4;
+  border-color: #af96c4;
   width: 15em;
 }
 
@@ -174,8 +171,6 @@ caption {
 .sign-up {
   width: 20em;
 }
-
-
 
 @media only screen and (min-width: 20em) {
 
