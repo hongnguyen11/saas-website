@@ -50,6 +50,11 @@ a:focus {
   outline: 3px solid #000;
 }
 
+.no-line {
+  text-decoration: none;
+  color: #707070;
+}
+
 .btn-dark:hover {
   background-color: #fff;
   color: #000;
@@ -137,16 +142,17 @@ th, td {
   border-bottom: 1px solid #fff;
 }
 
-.btn-light {
+.btn-purple {
   background-color: #af96c4;
   color: #fff;
   border-color: #af96c4;
   width: 15em;
 }
 
-.btn-light-green {
+.btn-green {
   background-color: #649867;
   border-color: #649867;
+  width: 15em;
 }
 
 caption {
