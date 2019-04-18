@@ -142,28 +142,28 @@ th, td {
   border-bottom: 1px solid #fff;
 }
 
-.btn-purple {
+.purple {
   background-color: #af96c4;
   color: #fff;
   border-color: #af96c4;
   width: 15em;
 }
 
-.btn-purple:hover,
-.btn-purple:focus {
+.purple:hover,
+.purple:focus {
   background-color: #000;
   color: #fff;
   border-color: #000;
 }
 
-.btn-green {
+.green {
   background-color: #649867;
   border-color: #649867;
   width: 15em;
 }
 
-.btn-green:hover,
-.btn-green:focus {
+.green:hover,
+.green:focus {
   background-color: #000;
   color: #fff;
   border-color: #000;
