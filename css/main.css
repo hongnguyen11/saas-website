@@ -149,10 +149,24 @@ th, td {
   width: 15em;
 }
 
+.btn-purple:hover,
+.btn-purple:focus {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
 .btn-green {
   background-color: #649867;
   border-color: #649867;
   width: 15em;
+}
+
+.btn-green:hover,
+.btn-green:focus {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
 }
 
 caption {
